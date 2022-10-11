@@ -16,7 +16,6 @@ computerBtn.addEventListener("click", function() {
 // generare numero user
 const  userNumber = Math.floor(Math.random()*6)+1;
 console.log(userNumber);
-
 const userBtn = document.getElementById("user_btn");
 
 userBtn.addEventListener("click", function(){
@@ -28,6 +27,10 @@ userBtn.addEventListener("click", function(){
     } else {
         alert(`Hai estratto il numero ${userNumber}, quindi hai vinto!`);
     }
+})
 
+const resetBtn = document.getElementById("reset");
+
+resetBtn.addEventListener("click", function(){
 
 })
